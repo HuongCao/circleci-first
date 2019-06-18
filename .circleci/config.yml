@@ -9,5 +9,5 @@ jobs:
           name: fastlane
           command: |
             cd MiniApp
-            bundle exec fastlane do_test_app --env -Dev
+            fastlane do_test_app --env Dev
       # - run: echo "A first hello"
